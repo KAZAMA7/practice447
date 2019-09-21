@@ -1,0 +1,5 @@
+---
+- name: Playbook to learn the json parsing
+  hosts: localhost
+  tasks:
+    - name: 

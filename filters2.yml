@@ -1,0 +1,10 @@
+---
+- name: practising filters lists and dictionaries
+  hosts: localhost
+  tasks:
+    - name: Testing the combine filter
+      vars:
+        dict1: {'a': 1, 'b': 2}
+        dict2: {'b': 3, 'c': 4}
+      assert:
+        that: "{{ dict1 | combine(dict2) }} is eq({'a': 1, 'b': 3, 'c': 4})"

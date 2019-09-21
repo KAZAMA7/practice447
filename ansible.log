@@ -1,0 +1,2281 @@
+2019-08-03 13:21:15,662 p=32303 u=giridhar |   [WARNING]: Skipping 'ansible' as this is not a valid group definition
+
+2019-08-03 13:21:15,663 p=32303 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 13:21:15,663 p=32303 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: linux
+
+2019-08-03 13:21:31,786 p=32329 u=giridhar |   [WARNING]: Skipping 'ansible' as this is not a valid group definition
+
+2019-08-03 13:21:31,787 p=32329 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 13:21:42,304 p=32337 u=giridhar |  ERROR! Missing target hosts
+2019-08-03 13:21:51,178 p=32348 u=giridhar |   [WARNING]: Skipping 'ansible' as this is not a valid group definition
+
+2019-08-03 13:21:51,179 p=32348 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 13:21:51,179 p=32348 u=giridhar |    hosts (0):
+2019-08-03 13:22:44,443 p=32412 u=giridhar |   [WARNING]: Skipping 'ansible' as this is not a valid group definition
+
+2019-08-03 13:22:44,444 p=32412 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 13:22:44,444 p=32412 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: ansible
+
+2019-08-03 13:22:44,444 p=32412 u=giridhar |    hosts (0):
+2019-08-03 13:23:45,853 p=32426 u=giridhar |    hosts (1):
+2019-08-03 13:23:45,853 p=32426 u=giridhar |      linux windows
+2019-08-03 13:24:02,583 p=32438 u=giridhar |  linux windows | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname linux windows: Name or service not known",
+    "unreachable": true
+}
+2019-08-03 13:24:59,076 p=32490 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: linux
+
+2019-08-03 13:24:59,076 p=32490 u=giridhar |   [WARNING]: No hosts matched, nothing to do
+
+2019-08-03 13:25:13,067 p=32500 u=giridhar |  linux windows | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname linux windows: Name or service not known",
+    "unreachable": true
+}
+2019-08-03 13:26:19,573 p=32522 u=giridhar |  linux windows | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname linux windows: Name or service not known",
+    "unreachable": true
+}
+2019-08-03 13:29:24,843 p=32620 u=giridhar |   [WARNING]: Skipping key (windows) in group (linux) as it is not a mapping, it is a <class 'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2019-08-03 13:29:25,904 p=32620 u=giridhar |  rhel71.lab.example.com | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2019-08-03 13:31:50,999 p=32743 u=giridhar |   [WARNING]: Skipping 'windows' as this is not a valid group definition
+
+2019-08-03 13:31:51,003 p=32743 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: windows is not a known host nor group
+
+2019-08-03 13:31:51,003 p=32743 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 13:31:51,003 p=32743 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 13:31:51,003 p=32743 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 13:31:51,004 p=32743 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 13:31:52,017 p=32743 u=giridhar |  rhel71.lab.example.com | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2019-08-03 13:32:35,113 p=340 u=giridhar |   [WARNING]: Skipping 'windows' as this is not a valid group definition
+
+2019-08-03 13:32:35,115 p=340 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: windows is not a known host nor group
+
+2019-08-03 13:32:35,115 p=340 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern 'ansible:' supplied, ending in ':' is not
+allowed, this character is reserved to provide a port.
+
+2019-08-03 13:32:35,115 p=340 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 13:32:35,115 p=340 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 13:32:35,116 p=340 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 13:32:35,751 p=340 u=giridhar |  rhel71.lab.example.com | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2019-08-03 13:33:00,014 p=370 u=giridhar |   [WARNING]: Skipping 'windows' as this is not a valid group definition
+
+2019-08-03 13:33:00,016 p=370 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: windows is not a known host nor group
+
+2019-08-03 13:33:00,017 p=370 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 13:33:00,017 p=370 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 13:33:00,017 p=370 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 13:33:00,018 p=370 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 13:33:00,652 p=370 u=giridhar |  rhel71.lab.example.com | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2019-08-03 13:33:33,686 p=406 u=giridhar |   [WARNING]: Skipping 'windows' as this is not a valid group definition
+
+2019-08-03 13:33:33,688 p=406 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: windows is not a known host nor group
+
+2019-08-03 13:33:33,688 p=406 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 13:33:33,688 p=406 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 13:33:33,688 p=406 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 13:33:33,689 p=406 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 13:33:33,689 p=406 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: windows
+
+2019-08-03 13:34:26,176 p=696 u=giridhar |   [WARNING]: Skipping 'windows' as this is not a valid group definition
+
+2019-08-03 13:34:26,180 p=696 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: windows is not a known host nor group
+
+2019-08-03 13:34:26,180 p=696 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 13:34:26,180 p=696 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 13:34:26,180 p=696 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 13:34:26,182 p=696 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 13:34:26,182 p=696 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: windows
+
+2019-08-03 13:35:16,470 p=739 u=giridhar |  192.168.122.132 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.122.132 port 22: No route to host",
+    "unreachable": true
+}
+2019-08-03 13:56:18,824 p=1605 u=giridhar |  192.168.122.132 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.122.132 port 22: Connection timed out",
+    "unreachable": true
+}
+2019-08-03 14:02:43,679 p=2036 u=giridhar |  192.168.122.132 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.122.132 port 22: Connection timed out",
+    "unreachable": true
+}
+2019-08-03 15:08:27,987 p=3889 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: Syntax Error while loading YAML.   mapping values are not allowed in
+this context  The error appears to be in '/home/giridhar/Documents/workbooks/practice/hosts': line 10, column 23, but may be elsewhere in the file depending on the
+exact syntax problem.  The offending line appears to be:          192.168.122.132           ansible_user: Administrator                       ^ here
+
+2019-08-03 15:08:27,987 p=3889 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 15:08:27,988 p=3889 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 15:08:27,988 p=3889 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 15:08:27,989 p=3889 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 15:08:27,990 p=3889 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: windows
+
+2019-08-03 15:11:34,595 p=3960 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: Syntax Error while loading YAML.   mapping values are not allowed in
+this context  The error appears to be in '/home/giridhar/Documents/workbooks/practice/hosts': line 10, column 23, but may be elsewhere in the file depending on the
+exact syntax problem.  The offending line appears to be:          192.168.122.132           ansible_user: Administrator                       ^ here
+
+2019-08-03 15:11:34,596 p=3960 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 15:11:34,596 p=3960 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 15:11:34,596 p=3960 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 15:11:34,598 p=3960 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 15:11:34,598 p=3960 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: windows
+
+2019-08-03 15:13:03,321 p=4015 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: Syntax Error while loading YAML.   mapping values are not allowed in
+this context  The error appears to be in '/home/giridhar/Documents/workbooks/practice/hosts': line 10, column 23, but may be elsewhere in the file depending on the
+exact syntax problem.  The offending line appears to be:          192.168.122.132           ansible_user: Administrator                       ^ here
+
+2019-08-03 15:13:03,322 p=4015 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 15:13:03,322 p=4015 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 15:13:03,322 p=4015 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 15:13:03,323 p=4015 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 15:13:03,323 p=4015 u=giridhar |    hosts (0):
+2019-08-03 15:13:13,217 p=4020 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: Syntax Error while loading YAML.   mapping values are not allowed in
+this context  The error appears to be in '/home/giridhar/Documents/workbooks/practice/hosts': line 10, column 23, but may be elsewhere in the file depending on the
+exact syntax problem.  The offending line appears to be:          192.168.122.132           ansible_user: Administrator                       ^ here
+
+2019-08-03 15:13:13,218 p=4020 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 15:13:13,218 p=4020 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 15:13:13,218 p=4020 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 15:13:13,219 p=4020 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 15:13:13,219 p=4020 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: linux
+
+2019-08-03 15:13:13,219 p=4020 u=giridhar |    hosts (0):
+2019-08-03 15:14:20,907 p=4048 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: Syntax Error while loading YAML.   mapping values are not allowed in
+this context  The error appears to be in '/home/giridhar/Documents/workbooks/practice/hosts': line 10, column 15, but may be elsewhere in the file depending on the
+exact syntax problem.  The offending line appears to be:          192.168.122.132           vars:               ^ here
+
+2019-08-03 15:14:20,908 p=4048 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 15:14:20,908 p=4048 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 15:14:20,908 p=4048 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 15:14:20,909 p=4048 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 15:14:20,910 p=4048 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: windows
+
+2019-08-03 15:18:05,374 p=4239 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: Syntax Error while loading YAML.   mapping values are not allowed in
+this context  The error appears to be in '/home/giridhar/Documents/workbooks/practice/hosts': line 10, column 25, but may be elsewhere in the file depending on the
+exact syntax problem.  The offending line appears to be:          192.168.122.132             ansible_user: Administrator                         ^ here
+
+2019-08-03 15:18:05,374 p=4239 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 15:18:05,374 p=4239 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 15:18:05,374 p=4239 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 15:18:05,375 p=4239 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 15:18:05,376 p=4239 u=giridhar |   [WARNING]: Could not match supplied host pattern, ignoring: linux
+
+2019-08-03 15:18:05,376 p=4239 u=giridhar |    hosts (0):
+2019-08-03 15:18:12,278 p=4243 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: Syntax Error while loading YAML.   mapping values are not allowed in
+this context  The error appears to be in '/home/giridhar/Documents/workbooks/practice/hosts': line 10, column 25, but may be elsewhere in the file depending on the
+exact syntax problem.  The offending line appears to be:          192.168.122.132             ansible_user: Administrator                         ^ here
+
+2019-08-03 15:18:12,278 p=4243 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 15:18:12,278 p=4243 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 15:18:12,278 p=4243 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 15:18:12,279 p=4243 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 15:18:12,279 p=4243 u=giridhar |    hosts (0):
+2019-08-03 15:19:55,671 p=4362 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: Syntax Error while loading YAML.   mapping values are not allowed in
+this context  The error appears to be in '/home/giridhar/Documents/workbooks/practice/hosts': line 10, column 25, but may be elsewhere in the file depending on the
+exact syntax problem.  The offending line appears to be:          192.168.122.132             ansible_user: Administrator                         ^ here
+
+2019-08-03 15:19:55,671 p=4362 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 15:19:55,671 p=4362 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 15:19:55,671 p=4362 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 15:19:55,673 p=4362 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 15:19:55,673 p=4362 u=giridhar |    hosts (0):
+2019-08-03 15:20:36,753 p=4380 u=giridhar |    hosts (1):
+2019-08-03 15:20:36,753 p=4380 u=giridhar |      rhel71.lab.example.com
+2019-08-03 15:20:44,713 p=4386 u=giridhar |    hosts (1):
+2019-08-03 15:20:44,713 p=4386 u=giridhar |      rhel71.lab.example.com
+2019-08-03 15:21:13,928 p=4401 u=giridhar |    hosts (2):
+2019-08-03 15:21:13,929 p=4401 u=giridhar |      rhel71.lab.example.com
+2019-08-03 15:21:13,929 p=4401 u=giridhar |      192.168.122.132
+2019-08-03 15:21:37,824 p=4425 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with yaml plugin: Syntax Error while loading YAML.   mapping values are not allowed in
+this context  The error appears to be in '/home/giridhar/Documents/workbooks/practice/hosts': line 10, column 23, but may be elsewhere in the file depending on the
+exact syntax problem.  The offending line appears to be:          192.168.122.132           ansible_user: Administrator                       ^ here
+
+2019-08-03 15:21:37,825 p=4425 u=giridhar |   [WARNING]:  * Failed to parse /home/giridhar/Documents/workbooks/practice/hosts with ini plugin: Invalid host pattern '---' supplied, '---' is normally a sign this is
+a YAML file.
+
+2019-08-03 15:21:37,825 p=4425 u=giridhar |   [WARNING]: Unable to parse /home/giridhar/Documents/workbooks/practice/hosts as an inventory source
+
+2019-08-03 15:21:37,825 p=4425 u=giridhar |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-08-03 15:21:37,826 p=4425 u=giridhar |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-08-03 15:21:37,827 p=4425 u=giridhar |    hosts (0):
+2019-08-03 15:22:27,768 p=4482 u=giridhar |    hosts (2):
+2019-08-03 15:22:27,768 p=4482 u=giridhar |      rhel71.lab.example.com
+2019-08-03 15:22:27,768 p=4482 u=giridhar |      192.168.122.132
+2019-08-03 15:22:39,459 p=4489 u=giridhar |  192.168.122.132 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2019-08-03 17:22:57,050 p=6527 u=giridhar |   [WARNING]: Found both group and host with same name: windows
+
+2019-08-03 17:22:57,051 p=6527 u=giridhar |    hosts (2):
+2019-08-03 17:22:57,052 p=6527 u=giridhar |      rhel71.lab.example.com
+2019-08-03 17:22:57,052 p=6527 u=giridhar |      windows
+2019-08-03 17:23:15,170 p=6538 u=giridhar |    hosts (2):
+2019-08-03 17:23:15,171 p=6538 u=giridhar |      rhel71.lab.example.com
+2019-08-03 17:23:15,171 p=6538 u=giridhar |      windows.lab.example.com
+2019-08-03 17:55:28,911 p=7627 u=giridhar |  PLAY [Testing the apache role] ******************************************************************************************************************************************
+2019-08-03 17:55:28,919 p=7627 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-03 17:55:31,008 p=7627 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-03 17:55:31,021 p=7627 u=giridhar |  TASK [This is task 1] ***************************************************************************************************************************************************
+2019-08-03 17:55:31,032 p=7627 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is task1 printing using debug"
+}
+2019-08-03 17:55:31,048 p=7627 u=giridhar |  TASK [This is task2 including the apache role] **************************************************************************************************************************
+2019-08-03 17:55:31,107 p=7627 u=giridhar |  TASK [apache : Include OS-specific variables.] **************************************************************************************************************************
+2019-08-03 17:55:31,148 p=7627 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-03 17:55:31,182 p=7627 u=giridhar |  TASK [apache : Include variables for Amazon Linux.] *********************************************************************************************************************
+2019-08-03 17:55:31,199 p=7627 u=giridhar |  skipping: [rhel71.lab.example.com]
+2019-08-03 17:55:31,212 p=7627 u=giridhar |  TASK [apache : Define apache_packages.] *********************************************************************************************************************************
+2019-08-03 17:55:31,233 p=7627 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-03 17:55:31,245 p=7627 u=giridhar |  TASK [apache : include_tasks] *******************************************************************************************************************************************
+2019-08-03 17:55:31,275 p=7627 u=giridhar |  included: /home/giridhar/Documents/workbooks/practice/roles/apache/tasks/setup-RedHat.yml for rhel71.lab.example.com
+2019-08-03 17:55:31,295 p=7627 u=giridhar |  TASK [apache : Ensure Apache is installed on RHEL.] *********************************************************************************************************************
+2019-08-03 17:55:45,664 p=7627 u=giridhar |  fatal: [rhel71.lab.example.com]: FAILED! => {"changed": false, "changes": {"installed": ["httpd", "httpd-devel", "mod_ssl"]}, "msg": "You need to be root to perform this command.\n", "rc": 1, "results": ["openssh-7.4p1-16.el7.x86_64 providing openssh is already installed", "Loaded plugins: product-id, search-disabled-repos, subscription-manager\n"]}
+2019-08-03 17:55:45,666 p=7627 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-03 17:55:45,666 p=7627 u=giridhar |  rhel71.lab.example.com     : ok=5    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2019-08-03 17:56:22,489 p=7716 u=giridhar |  PLAY [Testing the apache role] ******************************************************************************************************************************************
+2019-08-03 17:56:22,498 p=7716 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-03 17:56:22,973 p=7716 u=giridhar |  fatal: [rhel71.lab.example.com]: FAILED! => {"msg": "Missing sudo password"}
+2019-08-03 17:56:22,975 p=7716 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-03 17:56:22,976 p=7716 u=giridhar |  rhel71.lab.example.com     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-03 17:57:01,665 p=7749 u=giridhar |  ansible-playbook 2.8.3
+  config file = /home/giridhar/Documents/workbooks/practice/ansible.cfg
+  configured module search path = ['/home/giridhar/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/local/lib/python3.6/dist-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 3.6.8 (default, Jan 14 2019, 11:02:34) [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+2019-08-03 17:57:01,666 p=7749 u=giridhar |  Using /home/giridhar/Documents/workbooks/practice/ansible.cfg as config file
+2019-08-03 17:57:01,672 p=7749 u=giridhar |  host_list declined parsing /home/giridhar/Documents/workbooks/practice/hosts as it did not pass it's verify_file() method
+2019-08-03 17:57:01,673 p=7749 u=giridhar |  script declined parsing /home/giridhar/Documents/workbooks/practice/hosts as it did not pass it's verify_file() method
+2019-08-03 17:57:01,673 p=7749 u=giridhar |  auto declined parsing /home/giridhar/Documents/workbooks/practice/hosts as it did not pass it's verify_file() method
+2019-08-03 17:57:01,675 p=7749 u=giridhar |  Parsed /home/giridhar/Documents/workbooks/practice/hosts inventory source with yaml plugin
+2019-08-03 17:57:01,945 p=7749 u=giridhar |  PLAYBOOK: task_execution.yml ********************************************************************************************************************************************
+2019-08-03 17:57:01,946 p=7749 u=giridhar |  1 plays in task_execution.yml
+2019-08-03 17:57:01,966 p=7749 u=giridhar |  PLAY [Testing the apache role] ******************************************************************************************************************************************
+2019-08-03 17:57:01,977 p=7749 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-03 17:57:01,978 p=7749 u=giridhar |  task path: /home/giridhar/Documents/workbooks/practice/task_execution.yml:2
+2019-08-03 17:57:01,987 p=7749 u=giridhar |  <rhel71.lab.example.com> ESTABLISH SSH CONNECTION FOR USER: None
+2019-08-03 17:57:01,988 p=7749 u=giridhar |  <rhel71.lab.example.com> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/home/giridhar/.ansible/cp/9a13aec2e2 rhel71.lab.example.com '/bin/sh -c '"'"'echo ~ && sleep 0'"'"''
+2019-08-03 17:57:02,015 p=7749 u=giridhar |  <rhel71.lab.example.com> (0, b'/home/giridhar\n', b'')
+2019-08-03 17:57:02,015 p=7749 u=giridhar |  <rhel71.lab.example.com> ESTABLISH SSH CONNECTION FOR USER: None
+2019-08-03 17:57:02,016 p=7749 u=giridhar |  <rhel71.lab.example.com> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/home/giridhar/.ansible/cp/9a13aec2e2 rhel71.lab.example.com '/bin/sh -c '"'"'( umask 77 && mkdir -p "` echo /home/giridhar/.ansible/tmp/ansible-tmp-1564835221.9871712-227465195280531 `" && echo ansible-tmp-1564835221.9871712-227465195280531="` echo /home/giridhar/.ansible/tmp/ansible-tmp-1564835221.9871712-227465195280531 `" ) && sleep 0'"'"''
+2019-08-03 17:57:02,044 p=7749 u=giridhar |  <rhel71.lab.example.com> (0, b'ansible-tmp-1564835221.9871712-227465195280531=/home/giridhar/.ansible/tmp/ansible-tmp-1564835221.9871712-227465195280531\n', b'')
+2019-08-03 17:57:02,300 p=7749 u=giridhar |  <rhel71.lab.example.com> Attempting python interpreter discovery
+2019-08-03 17:57:02,300 p=7749 u=giridhar |  <rhel71.lab.example.com> ESTABLISH SSH CONNECTION FOR USER: None
+2019-08-03 17:57:02,301 p=7749 u=giridhar |  <rhel71.lab.example.com> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/home/giridhar/.ansible/cp/9a13aec2e2 rhel71.lab.example.com '/bin/sh -c '"'"'echo PLATFORM; uname; echo FOUND; command -v '"'"'"'"'"'"'"'"'/usr/bin/python'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python3.7'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python3.6'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python3.5'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python2.7'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python2.6'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'/usr/libexec/platform-python'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'/usr/bin/python3'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python'"'"'"'"'"'"'"'"'; echo ENDFOUND && sleep 0'"'"''
+2019-08-03 17:57:02,329 p=7749 u=giridhar |  <rhel71.lab.example.com> (0, b'PLATFORM\nLinux\nFOUND\n/usr/bin/python\n/usr/bin/python2.7\n/usr/libexec/platform-python\n/usr/bin/python\nENDFOUND\n', b'')
+2019-08-03 17:57:02,332 p=7749 u=giridhar |  <rhel71.lab.example.com> ESTABLISH SSH CONNECTION FOR USER: None
+2019-08-03 17:57:02,336 p=7749 u=giridhar |  <rhel71.lab.example.com> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/home/giridhar/.ansible/cp/9a13aec2e2 rhel71.lab.example.com '/bin/sh -c '"'"'/usr/bin/python && sleep 0'"'"''
+2019-08-03 17:57:02,380 p=7749 u=giridhar |  <rhel71.lab.example.com> (0, b'{"osrelease_content": "NAME=\\"Red Hat Enterprise Linux Server\\"\\nVERSION=\\"7.6 (Maipo)\\"\\nID=\\"rhel\\"\\nID_LIKE=\\"fedora\\"\\nVARIANT=\\"Server\\"\\nVARIANT_ID=\\"server\\"\\nVERSION_ID=\\"7.6\\"\\nPRETTY_NAME=\\"Red Hat Enterprise Linux Server 7.6 (Maipo)\\"\\nANSI_COLOR=\\"0;31\\"\\nCPE_NAME=\\"cpe:/o:redhat:enterprise_linux:7.6:GA:server\\"\\nHOME_URL=\\"https://www.redhat.com/\\"\\nBUG_REPORT_URL=\\"https://bugzilla.redhat.com/\\"\\n\\nREDHAT_BUGZILLA_PRODUCT=\\"Red Hat Enterprise Linux 7\\"\\nREDHAT_BUGZILLA_PRODUCT_VERSION=7.6\\nREDHAT_SUPPORT_PRODUCT=\\"Red Hat Enterprise Linux\\"\\nREDHAT_SUPPORT_PRODUCT_VERSION=\\"7.6\\"\\n", "platform_dist_result": ["redhat", "7.6", "Maipo"]}\n', b'')
+2019-08-03 17:57:02,382 p=7749 u=giridhar |  Using module file /usr/local/lib/python3.6/dist-packages/ansible/modules/system/setup.py
+2019-08-03 17:57:02,383 p=7749 u=giridhar |  <rhel71.lab.example.com> PUT /home/giridhar/.ansible/tmp/ansible-local-7749r14mdlz1/tmpouk9huzq TO /home/giridhar/.ansible/tmp/ansible-tmp-1564835221.9871712-227465195280531/AnsiballZ_setup.py
+2019-08-03 17:57:02,384 p=7749 u=giridhar |  <rhel71.lab.example.com> SSH: EXEC sftp -b - -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/home/giridhar/.ansible/cp/9a13aec2e2 '[rhel71.lab.example.com]'
+2019-08-03 17:57:02,428 p=7749 u=giridhar |  <rhel71.lab.example.com> (0, b'sftp> put /home/giridhar/.ansible/tmp/ansible-local-7749r14mdlz1/tmpouk9huzq /home/giridhar/.ansible/tmp/ansible-tmp-1564835221.9871712-227465195280531/AnsiballZ_setup.py\n', b'')
+2019-08-03 17:57:02,429 p=7749 u=giridhar |  <rhel71.lab.example.com> ESTABLISH SSH CONNECTION FOR USER: None
+2019-08-03 17:57:02,430 p=7749 u=giridhar |  <rhel71.lab.example.com> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/home/giridhar/.ansible/cp/9a13aec2e2 rhel71.lab.example.com '/bin/sh -c '"'"'chmod u+x /home/giridhar/.ansible/tmp/ansible-tmp-1564835221.9871712-227465195280531/ /home/giridhar/.ansible/tmp/ansible-tmp-1564835221.9871712-227465195280531/AnsiballZ_setup.py && sleep 0'"'"''
+2019-08-03 17:57:02,457 p=7749 u=giridhar |  <rhel71.lab.example.com> (0, b'', b'')
+2019-08-03 17:57:02,459 p=7749 u=giridhar |  <rhel71.lab.example.com> ESTABLISH SSH CONNECTION FOR USER: None
+2019-08-03 17:57:02,464 p=7749 u=giridhar |  <rhel71.lab.example.com> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/home/giridhar/.ansible/cp/9a13aec2e2 -tt rhel71.lab.example.com '/bin/sh -c '"'"'sudo -H -S -n  -u root /bin/sh -c '"'"'"'"'"'"'"'"'echo BECOME-SUCCESS-bmfablswgsieyahvqhahxpcfmoglrpos ; /usr/bin/python /home/giridhar/.ansible/tmp/ansible-tmp-1564835221.9871712-227465195280531/AnsiballZ_setup.py'"'"'"'"'"'"'"'"' && sleep 0'"'"''
+2019-08-03 17:57:02,501 p=7749 u=giridhar |  Escalation requires password
+2019-08-03 17:57:02,505 p=7749 u=giridhar |  fatal: [rhel71.lab.example.com]: FAILED! => {
+    "msg": "Missing sudo password"
+}
+2019-08-03 17:57:02,506 p=7749 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-03 17:57:02,507 p=7749 u=giridhar |  rhel71.lab.example.com     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-03 17:57:45,521 p=7823 u=giridhar |  PLAY [Testing the apache role] ******************************************************************************************************************************************
+2019-08-03 17:57:45,528 p=7823 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-03 17:57:45,985 p=7823 u=giridhar |  fatal: [rhel71.lab.example.com]: FAILED! => {"msg": "Missing sudo password"}
+2019-08-03 17:57:45,986 p=7823 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-03 17:57:45,986 p=7823 u=giridhar |  rhel71.lab.example.com     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-03 17:58:31,224 p=7857 u=giridhar |  PLAY [Testing the apache role] ******************************************************************************************************************************************
+2019-08-03 17:58:31,232 p=7857 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-03 17:58:31,762 p=7857 u=giridhar |  fatal: [rhel71.lab.example.com]: FAILED! => {"msg": "Missing sudo password"}
+2019-08-03 17:58:31,763 p=7857 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-03 17:58:31,764 p=7857 u=giridhar |  rhel71.lab.example.com     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-03 18:02:37,923 p=8010 u=giridhar |  PLAY [Testing the apache role] ******************************************************************************************************************************************
+2019-08-03 18:02:37,930 p=8010 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-03 18:02:39,304 p=8010 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-03 18:02:39,317 p=8010 u=giridhar |  TASK [This is task 1] ***************************************************************************************************************************************************
+2019-08-03 18:02:39,328 p=8010 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is task1 printing using debug"
+}
+2019-08-03 18:02:39,343 p=8010 u=giridhar |  TASK [This is task2 including the apache role] **************************************************************************************************************************
+2019-08-03 18:02:39,397 p=8010 u=giridhar |  TASK [apache : Include OS-specific variables.] **************************************************************************************************************************
+2019-08-03 18:02:39,438 p=8010 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-03 18:02:39,473 p=8010 u=giridhar |  TASK [apache : Include variables for Amazon Linux.] *********************************************************************************************************************
+2019-08-03 18:02:39,486 p=8010 u=giridhar |  skipping: [rhel71.lab.example.com]
+2019-08-03 18:02:39,506 p=8010 u=giridhar |  TASK [apache : Define apache_packages.] *********************************************************************************************************************************
+2019-08-03 18:02:39,529 p=8010 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-03 18:02:39,542 p=8010 u=giridhar |  TASK [apache : include_tasks] *******************************************************************************************************************************************
+2019-08-03 18:02:39,573 p=8010 u=giridhar |  included: /home/giridhar/Documents/workbooks/practice/roles/apache/tasks/setup-RedHat.yml for rhel71.lab.example.com
+2019-08-03 18:02:39,595 p=8010 u=giridhar |  TASK [apache : Ensure Apache is installed on RHEL.] *********************************************************************************************************************
+2019-08-03 18:03:20,561 p=8010 u=giridhar |  changed: [rhel71.lab.example.com]
+2019-08-03 18:03:20,577 p=8010 u=giridhar |  TASK [apache : Get installed version of Apache.] ************************************************************************************************************************
+2019-08-03 18:03:20,988 p=8010 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-03 18:03:21,001 p=8010 u=giridhar |  TASK [apache : Create apache_version variable.] *************************************************************************************************************************
+2019-08-03 18:03:21,020 p=8010 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-03 18:03:21,033 p=8010 u=giridhar |  TASK [apache : Include Apache 2.2 variables.] ***************************************************************************************************************************
+2019-08-03 18:03:21,052 p=8010 u=giridhar |  skipping: [rhel71.lab.example.com]
+2019-08-03 18:03:21,065 p=8010 u=giridhar |  TASK [apache : Include Apache 2.4 variables.] ***************************************************************************************************************************
+2019-08-03 18:03:21,089 p=8010 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-03 18:03:21,102 p=8010 u=giridhar |  TASK [apache : Configure Apache.] ***************************************************************************************************************************************
+2019-08-03 18:03:21,145 p=8010 u=giridhar |  included: /home/giridhar/Documents/workbooks/practice/roles/apache/tasks/configure-RedHat.yml for rhel71.lab.example.com
+2019-08-03 18:03:21,161 p=8010 u=giridhar |  TASK [apache : Configure Apache.] ***************************************************************************************************************************************
+2019-08-03 18:03:21,547 p=8010 u=giridhar |  ok: [rhel71.lab.example.com] => (item={'regexp': '^Listen ', 'line': 'Listen 80'})
+2019-08-03 18:03:21,566 p=8010 u=giridhar |  TASK [apache : Check whether certificates defined in vhosts exist.] *****************************************************************************************************
+2019-08-03 18:03:21,598 p=8010 u=giridhar |  TASK [apache : Add apache vhosts configuration.] ************************************************************************************************************************
+2019-08-03 18:03:21,610 p=8010 u=giridhar |  skipping: [rhel71.lab.example.com]
+2019-08-03 18:03:21,629 p=8010 u=giridhar |  TASK [apache : Check if localhost cert exists (RHEL 8 and later).] ******************************************************************************************************
+2019-08-03 18:03:21,641 p=8010 u=giridhar |  skipping: [rhel71.lab.example.com]
+2019-08-03 18:03:21,659 p=8010 u=giridhar |  TASK [apache : Ensure httpd certs are installed (RHEL 8 and later).] ****************************************************************************************************
+2019-08-03 18:03:21,671 p=8010 u=giridhar |  skipping: [rhel71.lab.example.com]
+2019-08-03 18:03:21,690 p=8010 u=giridhar |  TASK [apache : Ensure Apache has selected state and enabled on boot.] ***************************************************************************************************
+2019-08-03 18:03:22,592 p=8010 u=giridhar |  changed: [rhel71.lab.example.com]
+2019-08-03 18:03:22,609 p=8010 u=giridhar |  TASK [This is task3 printing the debug again] ***************************************************************************************************************************
+2019-08-03 18:03:22,629 p=8010 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is fake message to say that everything is being printed"
+}
+2019-08-03 18:03:22,631 p=8010 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-03 18:03:22,631 p=8010 u=giridhar |  rhel71.lab.example.com     : ok=13   changed=2    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2019-08-04 12:06:53,579 p=14309 u=giridhar |  PLAY [Time to check the facts after getting enabled] ********************************************************************************************************************
+2019-08-04 12:06:53,588 p=14309 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-04 12:06:54,909 p=14309 u=giridhar |  ok: [localhost]
+2019-08-04 12:06:54,933 p=14309 u=giridhar |  TASK [debug] ************************************************************************************************************************************************************
+2019-08-04 12:06:54,950 p=14309 u=giridhar |  ok: [localhost] => {
+    "msg": "The facts are set to enabled"
+}
+2019-08-04 12:06:54,952 p=14309 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-04 12:06:54,952 p=14309 u=giridhar |  localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-04 12:07:02,008 p=14429 u=giridhar |  PLAY [Time to check the facts after getting disabled] *******************************************************************************************************************
+2019-08-04 12:07:02,016 p=14429 u=giridhar |  TASK [debug] ************************************************************************************************************************************************************
+2019-08-04 12:07:02,029 p=14429 u=giridhar |  ok: [localhost] => {
+    "msg": "The facts are set to disabled"
+}
+2019-08-04 12:07:02,030 p=14429 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-04 12:07:02,031 p=14429 u=giridhar |  localhost                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-04 12:08:10,669 p=14493 u=giridhar |  PLAY [Time to check the facts after getting enabled] ********************************************************************************************************************
+2019-08-04 12:08:10,676 p=14493 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-04 12:08:10,833 p=14493 u=giridhar |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'ShellModule' object has no attribute 'ECHO'
+2019-08-04 12:08:10,834 p=14493 u=giridhar |  fatal: [windows.lab.example.com]: FAILED! => {"msg": "Unexpected failure during module execution.", "stdout": ""}
+2019-08-04 12:08:12,481 p=14493 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-04 12:08:12,495 p=14493 u=giridhar |  TASK [debug] ************************************************************************************************************************************************************
+2019-08-04 12:08:12,510 p=14493 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "The facts are set to enabled"
+}
+2019-08-04 12:08:12,514 p=14493 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-04 12:08:12,515 p=14493 u=giridhar |  rhel71.lab.example.com     : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-04 12:08:12,515 p=14493 u=giridhar |  windows.lab.example.com    : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-04 12:08:49,264 p=14536 u=giridhar |  PLAY [Time to check the facts after getting enabled] ********************************************************************************************************************
+2019-08-04 12:08:49,272 p=14536 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-04 12:08:49,417 p=14536 u=giridhar |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'ShellModule' object has no attribute 'ECHO'
+2019-08-04 12:08:49,418 p=14536 u=giridhar |  fatal: [windows.lab.example.com]: FAILED! => {"msg": "Unexpected failure during module execution.", "stdout": ""}
+2019-08-04 12:08:50,270 p=14536 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-04 12:08:50,284 p=14536 u=giridhar |  TASK [debug] ************************************************************************************************************************************************************
+2019-08-04 12:08:50,296 p=14536 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "The facts are set to enabled"
+}
+2019-08-04 12:08:50,300 p=14536 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-04 12:08:50,301 p=14536 u=giridhar |  rhel71.lab.example.com     : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-04 12:08:50,302 p=14536 u=giridhar |  windows.lab.example.com    : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-05 11:02:30,633 p=5625 u=giridhar |  ERROR! Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/home/giridhar/Documents/workbooks/practice/filters1.yml': line 12, column 46, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        that:
+          - "{{ my_array | unique | sort }}" is eq( [2, 3, 4, 5, 6, 7] )
+                                             ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2019-08-05 11:21:14,150 p=6504 u=giridhar |   [WARNING]: Cannot open /sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes for reading ([Errno 2] No such file or directory:
+b'/sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes'). Disabling cgroup_perf_recap
+
+2019-08-05 11:21:14,226 p=6504 u=giridhar |  PLAY [This is a playbook to test the jinja2 filters to process the data] ************************************************************************************************
+2019-08-05 11:21:14,234 p=6504 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-05 11:21:14,235 p=6504 u=giridhar |  Monday 05 August 2019  11:21:14 +0530 (0:00:00.046)       0:00:00.046 ********* 
+2019-08-05 11:21:14,646 p=6504 u=giridhar |  fatal: [rhel71.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: devops@rhel71.lab.example.com: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).", "unreachable": true}
+2019-08-05 11:21:16,440 p=6504 u=giridhar |  ok: [localhost]
+2019-08-05 11:21:16,466 p=6504 u=giridhar |  TASK [Converting the string in to upper case] ***************************************************************************************************************************
+2019-08-05 11:21:16,466 p=6504 u=giridhar |  Monday 05 August 2019  11:21:16 +0530 (0:00:02.231)       0:00:02.278 ********* 
+2019-08-05 11:21:16,484 p=6504 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 11:21:16,507 p=6504 u=giridhar |  TASK [Converting the string in to camel case] ***************************************************************************************************************************
+2019-08-05 11:21:16,508 p=6504 u=giridhar |  Monday 05 August 2019  11:21:16 +0530 (0:00:00.041)       0:00:02.319 ********* 
+2019-08-05 11:21:16,520 p=6504 u=giridhar |  fatal: [localhost]: FAILED! => {"msg": "template error while templating string: no filter named 'capetalize'. String: This is a converted case {{ my_string | capetalize }}"}
+2019-08-05 11:21:16,522 p=6504 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-05 11:21:16,522 p=6504 u=giridhar |  localhost                  : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-05 11:21:16,522 p=6504 u=giridhar |  rhel71.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 11:21:16,522 p=6504 u=giridhar |  Monday 05 August 2019  11:21:16 +0530 (0:00:00.014)       0:00:02.334 ********* 
+2019-08-05 11:21:16,522 p=6504 u=giridhar |  =============================================================================== 
+2019-08-05 11:21:16,522 p=6504 u=giridhar |  Gathering Facts -------------------------------------------------------------------------------------------------------------------------------------------------- 2.23s
+2019-08-05 11:21:16,522 p=6504 u=giridhar |  Converting the string in to upper case --------------------------------------------------------------------------------------------------------------------------- 0.04s
+2019-08-05 11:21:16,522 p=6504 u=giridhar |  Converting the string in to camel case --------------------------------------------------------------------------------------------------------------------------- 0.01s
+2019-08-05 11:21:16,523 p=6504 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 2 seconds
+2019-08-05 11:22:24,456 p=6670 u=giridhar |   [WARNING]: Cannot open /sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes for reading ([Errno 2] No such file or directory:
+b'/sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes'). Disabling cgroup_perf_recap
+
+2019-08-05 11:22:24,514 p=6670 u=giridhar |  PLAY [This is a playbook to test the jinja2 filters to process the data] ************************************************************************************************
+2019-08-05 11:22:24,521 p=6670 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-05 11:22:24,522 p=6670 u=giridhar |  Monday 05 August 2019  11:22:24 +0530 (0:00:00.040)       0:00:00.041 ********* 
+2019-08-05 11:22:25,633 p=6670 u=giridhar |  ok: [localhost]
+2019-08-05 11:22:25,948 p=6670 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-05 11:22:25,964 p=6670 u=giridhar |  TASK [Converting the string in to upper case] ***************************************************************************************************************************
+2019-08-05 11:22:25,964 p=6670 u=giridhar |  Monday 05 August 2019  11:22:25 +0530 (0:00:01.442)       0:00:01.483 ********* 
+2019-08-05 11:22:25,994 p=6670 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 11:22:26,005 p=6670 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 11:22:26,021 p=6670 u=giridhar |  TASK [Converting the string in to camel case] ***************************************************************************************************************************
+2019-08-05 11:22:26,022 p=6670 u=giridhar |  Monday 05 August 2019  11:22:26 +0530 (0:00:00.057)       0:00:01.540 ********* 
+2019-08-05 11:22:26,051 p=6670 u=giridhar |  fatal: [rhel71.lab.example.com]: FAILED! => {"msg": "template error while templating string: no filter named 'capetalize'. String: This is a converted case {{ my_string | capetalize }}"}
+2019-08-05 11:22:26,088 p=6670 u=giridhar |  fatal: [localhost]: FAILED! => {"msg": "template error while templating string: no filter named 'capetalize'. String: This is a converted case {{ my_string | capetalize }}"}
+2019-08-05 11:22:26,089 p=6670 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-05 11:22:26,089 p=6670 u=giridhar |  localhost                  : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-05 11:22:26,090 p=6670 u=giridhar |  rhel71.lab.example.com     : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-05 11:22:26,090 p=6670 u=giridhar |  Monday 05 August 2019  11:22:26 +0530 (0:00:00.068)       0:00:01.609 ********* 
+2019-08-05 11:22:26,090 p=6670 u=giridhar |  =============================================================================== 
+2019-08-05 11:22:26,090 p=6670 u=giridhar |  Gathering Facts -------------------------------------------------------------------------------------------------------------------------------------------------- 1.44s
+2019-08-05 11:22:26,090 p=6670 u=giridhar |  Converting the string in to camel case --------------------------------------------------------------------------------------------------------------------------- 0.07s
+2019-08-05 11:22:26,090 p=6670 u=giridhar |  Converting the string in to upper case --------------------------------------------------------------------------------------------------------------------------- 0.06s
+2019-08-05 11:22:26,090 p=6670 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+2019-08-05 11:23:09,122 p=6810 u=giridhar |   [WARNING]: Cannot open /sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes for reading ([Errno 2] No such file or directory:
+b'/sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes'). Disabling cgroup_perf_recap
+
+2019-08-05 11:23:09,186 p=6810 u=giridhar |  PLAY [This is a playbook to test the jinja2 filters to process the data] ************************************************************************************************
+2019-08-05 11:23:09,194 p=6810 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-05 11:23:09,194 p=6810 u=giridhar |  Monday 05 August 2019  11:23:09 +0530 (0:00:00.046)       0:00:00.046 ********* 
+2019-08-05 11:23:10,225 p=6810 u=giridhar |  ok: [rhel71.lab.example.com]
+2019-08-05 11:23:10,338 p=6810 u=giridhar |  ok: [localhost]
+2019-08-05 11:23:10,357 p=6810 u=giridhar |  TASK [Converting the string in to upper case] ***************************************************************************************************************************
+2019-08-05 11:23:10,357 p=6810 u=giridhar |  Monday 05 August 2019  11:23:10 +0530 (0:00:01.163)       0:00:01.209 ********* 
+2019-08-05 11:23:10,387 p=6810 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 11:23:10,397 p=6810 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 11:23:10,414 p=6810 u=giridhar |  TASK [Converting the string in to camel case] ***************************************************************************************************************************
+2019-08-05 11:23:10,414 p=6810 u=giridhar |  Monday 05 August 2019  11:23:10 +0530 (0:00:00.057)       0:00:01.266 ********* 
+2019-08-05 11:23:10,445 p=6810 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 11:23:10,456 p=6810 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 11:23:10,473 p=6810 u=giridhar |  TASK [Converting the number in to string] *******************************************************************************************************************************
+2019-08-05 11:23:10,473 p=6810 u=giridhar |  Monday 05 August 2019  11:23:10 +0530 (0:00:00.058)       0:00:01.325 ********* 
+2019-08-05 11:23:10,530 p=6810 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 11:23:10,539 p=6810 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 11:23:10,541 p=6810 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-05 11:23:10,542 p=6810 u=giridhar |  localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 11:23:10,542 p=6810 u=giridhar |  rhel71.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 11:23:10,542 p=6810 u=giridhar |  Monday 05 August 2019  11:23:10 +0530 (0:00:00.068)       0:00:01.394 ********* 
+2019-08-05 11:23:10,542 p=6810 u=giridhar |  =============================================================================== 
+2019-08-05 11:23:10,542 p=6810 u=giridhar |  Gathering Facts -------------------------------------------------------------------------------------------------------------------------------------------------- 1.16s
+2019-08-05 11:23:10,542 p=6810 u=giridhar |  Converting the number in to string ------------------------------------------------------------------------------------------------------------------------------- 0.07s
+2019-08-05 11:23:10,543 p=6810 u=giridhar |  Converting the string in to camel case --------------------------------------------------------------------------------------------------------------------------- 0.06s
+2019-08-05 11:23:10,543 p=6810 u=giridhar |  Converting the string in to upper case --------------------------------------------------------------------------------------------------------------------------- 0.06s
+2019-08-05 11:23:10,543 p=6810 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+2019-08-05 11:24:05,274 p=6967 u=giridhar |   [WARNING]: Cannot open /sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes for reading ([Errno 2] No such file or directory:
+b'/sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes'). Disabling cgroup_perf_recap
+
+2019-08-05 11:24:05,333 p=6967 u=giridhar |  PLAY [This is a playbook to test the jinja2 filters to process the data] ************************************************************************************************
+2019-08-05 11:24:05,341 p=6967 u=giridhar |  TASK [Converting the string in to upper case] ***************************************************************************************************************************
+2019-08-05 11:24:05,341 p=6967 u=giridhar |  Monday 05 August 2019  11:24:05 +0530 (0:00:00.041)       0:00:00.041 ********* 
+2019-08-05 11:24:05,360 p=6967 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 11:24:05,367 p=6967 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 11:24:05,371 p=6967 u=giridhar |  TASK [Converting the string in to camel case] ***************************************************************************************************************************
+2019-08-05 11:24:05,371 p=6967 u=giridhar |  Monday 05 August 2019  11:24:05 +0530 (0:00:00.030)       0:00:00.071 ********* 
+2019-08-05 11:24:05,388 p=6967 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 11:24:05,396 p=6967 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 11:24:05,401 p=6967 u=giridhar |  TASK [Converting the number in to string] *******************************************************************************************************************************
+2019-08-05 11:24:05,401 p=6967 u=giridhar |  Monday 05 August 2019  11:24:05 +0530 (0:00:00.029)       0:00:00.101 ********* 
+2019-08-05 11:24:05,418 p=6967 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 11:24:05,427 p=6967 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 11:24:05,429 p=6967 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-05 11:24:05,429 p=6967 u=giridhar |  localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 11:24:05,429 p=6967 u=giridhar |  rhel71.lab.example.com     : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 11:24:05,430 p=6967 u=giridhar |  Monday 05 August 2019  11:24:05 +0530 (0:00:00.028)       0:00:00.130 ********* 
+2019-08-05 11:24:05,430 p=6967 u=giridhar |  =============================================================================== 
+2019-08-05 11:24:05,430 p=6967 u=giridhar |  Converting the string in to upper case --------------------------------------------------------------------------------------------------------------------------- 0.03s
+2019-08-05 11:24:05,430 p=6967 u=giridhar |  Converting the string in to camel case --------------------------------------------------------------------------------------------------------------------------- 0.03s
+2019-08-05 11:24:05,430 p=6967 u=giridhar |  Converting the number in to string ------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2019-08-05 11:24:05,430 p=6967 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+2019-08-05 11:45:39,979 p=7794 u=giridhar |  ERROR! Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/home/giridhar/Documents/workbooks/practice/filters1.yml': line 13, column 46, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        that:
+          - "{{ my_array | unique | sort }}" eq( [2, 3, 4, 5, 6, 7] )
+                                             ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2019-08-05 11:57:39,449 p=8356 u=giridhar |  ERROR! Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/home/giridhar/Documents/workbooks/practice/filters1.yml': line 13, column 46, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        that:
+          - "{{ my_array | unique | sort }}" eq ( [2, 3, 4, 5, 6, 7] )
+                                             ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2019-08-05 11:58:09,233 p=8375 u=giridhar |  ERROR! Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/giridhar/Documents/workbooks/practice/filters1.yml': line 12, column 48, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+      assert:
+        that: "{{ my_array | unique | sort }}" eq ( [2, 3, 4, 5, 6, 7] )
+                                               ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2019-08-05 11:58:27,676 p=8390 u=giridhar |  ERROR! Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/giridhar/Documents/workbooks/practice/filters1.yml': line 12, column 48, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+      assert:
+        that: "{{ my_array | unique | sort }}" is eq ( [2, 3, 4, 5, 6, 7] )
+                                               ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2019-08-05 12:18:54,949 p=9092 u=giridhar |  ERROR! Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/giridhar/Documents/workbooks/practice/filters1.yml': line 11, column 48, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    - assert:
+        that: "{{ my_array | unique | sort }}" is eq ( [2, 3, 4, 5, 6, 7] )
+                                               ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2019-08-05 12:20:22,106 p=9133 u=giridhar |   [WARNING]: Cannot open /sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes for reading ([Errno 2] No such file or directory:
+b'/sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes'). Disabling cgroup_perf_recap
+
+2019-08-05 12:20:22,186 p=9133 u=giridhar |  PLAY [This is a playbook to test the jinja2 filters to process the data] ************************************************************************************************
+2019-08-05 12:20:22,199 p=9133 u=giridhar |  TASK [assert] ***********************************************************************************************************************************************************
+2019-08-05 12:20:22,199 p=9133 u=giridhar |  Monday 05 August 2019  12:20:22 +0530 (0:00:00.053)       0:00:00.053 ********* 
+2019-08-05 12:20:22,219 p=9133 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-05 12:20:22,229 p=9133 u=giridhar |  ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-05 12:20:22,235 p=9133 u=giridhar |  TASK [Converting the string in to upper case] ***************************************************************************************************************************
+2019-08-05 12:20:22,235 p=9133 u=giridhar |  Monday 05 August 2019  12:20:22 +0530 (0:00:00.036)       0:00:00.090 ********* 
+2019-08-05 12:20:22,249 p=9133 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 12:20:22,258 p=9133 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 12:20:22,266 p=9133 u=giridhar |  TASK [Converting the string in to camel case] ***************************************************************************************************************************
+2019-08-05 12:20:22,266 p=9133 u=giridhar |  Monday 05 August 2019  12:20:22 +0530 (0:00:00.030)       0:00:00.121 ********* 
+2019-08-05 12:20:22,279 p=9133 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 12:20:22,288 p=9133 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 12:20:22,296 p=9133 u=giridhar |  TASK [Converting the number in to string] *******************************************************************************************************************************
+2019-08-05 12:20:22,296 p=9133 u=giridhar |  Monday 05 August 2019  12:20:22 +0530 (0:00:00.030)       0:00:00.151 ********* 
+2019-08-05 12:20:22,310 p=9133 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 12:20:22,318 p=9133 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 12:20:22,324 p=9133 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-05 12:20:22,325 p=9133 u=giridhar |  localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 12:20:22,326 p=9133 u=giridhar |  rhel71.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 12:20:22,326 p=9133 u=giridhar |  Monday 05 August 2019  12:20:22 +0530 (0:00:00.029)       0:00:00.180 ********* 
+2019-08-05 12:20:22,326 p=9133 u=giridhar |  =============================================================================== 
+2019-08-05 12:20:22,326 p=9133 u=giridhar |  assert ----------------------------------------------------------------------------------------------------------------------------------------------------------- 0.04s
+2019-08-05 12:20:22,326 p=9133 u=giridhar |  Converting the string in to upper case --------------------------------------------------------------------------------------------------------------------------- 0.03s
+2019-08-05 12:20:22,326 p=9133 u=giridhar |  Converting the string in to camel case --------------------------------------------------------------------------------------------------------------------------- 0.03s
+2019-08-05 12:20:22,326 p=9133 u=giridhar |  Converting the number in to string ------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2019-08-05 12:20:22,327 p=9133 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+2019-08-05 12:23:30,681 p=9286 u=giridhar |  ansible-playbook 2.8.3
+  config file = /home/giridhar/Documents/workbooks/practice/ansible.cfg
+  configured module search path = ['/home/giridhar/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/local/lib/python3.6/dist-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 3.6.8 (default, Jan 14 2019, 11:02:34) [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+2019-08-05 12:23:30,681 p=9286 u=giridhar |  Using /home/giridhar/Documents/workbooks/practice/ansible.cfg as config file
+2019-08-05 12:23:30,931 p=9286 u=giridhar |   [WARNING]: Cannot open /sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes for reading ([Errno 2] No such file or directory:
+b'/sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes'). Disabling cgroup_perf_recap
+
+2019-08-05 12:23:30,971 p=9286 u=giridhar |  PLAYBOOK: filters1.yml **************************************************************************************************************************************************
+2019-08-05 12:23:30,971 p=9286 u=giridhar |  1 plays in filters1.yml
+2019-08-05 12:23:30,995 p=9286 u=giridhar |  PLAY [This is a playbook to test the jinja2 filters to process the data] ************************************************************************************************
+2019-08-05 12:23:30,998 p=9286 u=giridhar |  META: ran handlers
+2019-08-05 12:23:31,004 p=9286 u=giridhar |  TASK [assert] ***********************************************************************************************************************************************************
+2019-08-05 12:23:31,004 p=9286 u=giridhar |  task path: /home/giridhar/Documents/workbooks/practice/filters1.yml:10
+2019-08-05 12:23:31,004 p=9286 u=giridhar |  Monday 05 August 2019  12:23:30 +0530 (0:00:00.047)       0:00:00.047 ********* 
+2019-08-05 12:23:31,026 p=9286 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-05 12:23:31,033 p=9286 u=giridhar |  ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-05 12:23:31,037 p=9286 u=giridhar |  TASK [Converting the string in to upper case] ***************************************************************************************************************************
+2019-08-05 12:23:31,038 p=9286 u=giridhar |  task path: /home/giridhar/Documents/workbooks/practice/filters1.yml:13
+2019-08-05 12:23:31,038 p=9286 u=giridhar |  Monday 05 August 2019  12:23:31 +0530 (0:00:00.033)       0:00:00.081 ********* 
+2019-08-05 12:23:31,057 p=9286 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 12:23:31,064 p=9286 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 12:23:31,068 p=9286 u=giridhar |  TASK [Converting the string in to camel case] ***************************************************************************************************************************
+2019-08-05 12:23:31,068 p=9286 u=giridhar |  task path: /home/giridhar/Documents/workbooks/practice/filters1.yml:18
+2019-08-05 12:23:31,069 p=9286 u=giridhar |  Monday 05 August 2019  12:23:31 +0530 (0:00:00.030)       0:00:00.112 ********* 
+2019-08-05 12:23:31,085 p=9286 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 12:23:31,097 p=9286 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 12:23:31,102 p=9286 u=giridhar |  TASK [Converting the number in to string] *******************************************************************************************************************************
+2019-08-05 12:23:31,102 p=9286 u=giridhar |  task path: /home/giridhar/Documents/workbooks/practice/filters1.yml:22
+2019-08-05 12:23:31,102 p=9286 u=giridhar |  Monday 05 August 2019  12:23:31 +0530 (0:00:00.033)       0:00:00.145 ********* 
+2019-08-05 12:23:31,119 p=9286 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 12:23:31,129 p=9286 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 12:23:31,130 p=9286 u=giridhar |  META: ran handlers
+2019-08-05 12:23:31,131 p=9286 u=giridhar |  META: ran handlers
+2019-08-05 12:23:31,132 p=9286 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-05 12:23:31,132 p=9286 u=giridhar |  localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 12:23:31,132 p=9286 u=giridhar |  rhel71.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 12:23:31,133 p=9286 u=giridhar |  Monday 05 August 2019  12:23:31 +0530 (0:00:00.030)       0:00:00.176 ********* 
+2019-08-05 12:23:31,133 p=9286 u=giridhar |  =============================================================================== 
+2019-08-05 12:23:31,133 p=9286 u=giridhar |  assert ----------------------------------------------------------------------------------------------------------------------------------------------------------- 0.03s
+/home/giridhar/Documents/workbooks/practice/filters1.yml:10 ------------------------------------------------------------------------------------------------------------
+2019-08-05 12:23:31,133 p=9286 u=giridhar |  Converting the string in to camel case --------------------------------------------------------------------------------------------------------------------------- 0.03s
+/home/giridhar/Documents/workbooks/practice/filters1.yml:18 ------------------------------------------------------------------------------------------------------------
+2019-08-05 12:23:31,133 p=9286 u=giridhar |  Converting the string in to upper case --------------------------------------------------------------------------------------------------------------------------- 0.03s
+/home/giridhar/Documents/workbooks/practice/filters1.yml:13 ------------------------------------------------------------------------------------------------------------
+2019-08-05 12:23:31,133 p=9286 u=giridhar |  Converting the number in to string ------------------------------------------------------------------------------------------------------------------------------- 0.03s
+/home/giridhar/Documents/workbooks/practice/filters1.yml:22 ------------------------------------------------------------------------------------------------------------
+2019-08-05 12:23:31,133 p=9286 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+2019-08-05 14:59:42,568 p=16015 u=giridhar |   [WARNING]: Cannot open /sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes for reading ([Errno 2] No such file or directory:
+b'/sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes'). Disabling cgroup_perf_recap
+
+2019-08-05 14:59:42,749 p=16015 u=giridhar |  PLAY [This is a playbook to test the jinja2 filters to process the data] ************************************************************************************************
+2019-08-05 14:59:42,767 p=16015 u=giridhar |  TASK [assert] ***********************************************************************************************************************************************************
+2019-08-05 14:59:42,767 p=16015 u=giridhar |  Monday 05 August 2019  14:59:42 +0530 (0:00:00.089)       0:00:00.089 ********* 
+2019-08-05 14:59:42,808 p=16015 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-05 14:59:42,829 p=16015 u=giridhar |  ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-05 14:59:42,847 p=16015 u=giridhar |  TASK [Converting the string in to upper case] ***************************************************************************************************************************
+2019-08-05 14:59:42,847 p=16015 u=giridhar |  Monday 05 August 2019  14:59:42 +0530 (0:00:00.079)       0:00:00.169 ********* 
+2019-08-05 14:59:42,879 p=16015 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 14:59:42,888 p=16015 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-05 14:59:42,901 p=16015 u=giridhar |  TASK [Converting the string in to camel case] ***************************************************************************************************************************
+2019-08-05 14:59:42,901 p=16015 u=giridhar |  Monday 05 August 2019  14:59:42 +0530 (0:00:00.054)       0:00:00.223 ********* 
+2019-08-05 14:59:42,939 p=16015 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 14:59:42,945 p=16015 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-05 14:59:42,961 p=16015 u=giridhar |  TASK [Converting the number in to string] *******************************************************************************************************************************
+2019-08-05 14:59:42,961 p=16015 u=giridhar |  Monday 05 August 2019  14:59:42 +0530 (0:00:00.060)       0:00:00.284 ********* 
+2019-08-05 14:59:42,982 p=16015 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 14:59:42,992 p=16015 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-05 14:59:42,996 p=16015 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-05 14:59:42,997 p=16015 u=giridhar |  localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 14:59:42,997 p=16015 u=giridhar |  rhel71.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-05 14:59:42,997 p=16015 u=giridhar |  Monday 05 August 2019  14:59:42 +0530 (0:00:00.035)       0:00:00.319 ********* 
+2019-08-05 14:59:42,997 p=16015 u=giridhar |  =============================================================================== 
+2019-08-05 14:59:42,997 p=16015 u=giridhar |  assert ----------------------------------------------------------------------------------------------------------------------------------------------------------- 0.08s
+2019-08-05 14:59:42,997 p=16015 u=giridhar |  Converting the string in to camel case --------------------------------------------------------------------------------------------------------------------------- 0.06s
+2019-08-05 14:59:42,997 p=16015 u=giridhar |  Converting the string in to upper case --------------------------------------------------------------------------------------------------------------------------- 0.05s
+2019-08-05 14:59:42,997 p=16015 u=giridhar |  Converting the number in to string ------------------------------------------------------------------------------------------------------------------------------- 0.04s
+2019-08-05 14:59:42,998 p=16015 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+2019-08-06 12:24:44,421 p=8547 u=giridhar |   [WARNING]: Cannot open /sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes for reading ([Errno 2] No such file or directory:
+b'/sys/fs/cgroup/memory/ansible_profile/memory.max_usage_in_bytes'). Disabling cgroup_perf_recap
+
+2019-08-06 12:24:44,501 p=8547 u=giridhar |  PLAY [This is a playbook to test the jinja2 filters to process the data] ************************************************************************************************
+2019-08-06 12:24:44,510 p=8547 u=giridhar |  TASK [assert] ***********************************************************************************************************************************************************
+2019-08-06 12:24:44,510 p=8547 u=giridhar |  Tuesday 06 August 2019  12:24:44 +0530 (0:00:00.047)       0:00:00.047 ******** 
+2019-08-06 12:24:44,533 p=8547 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-06 12:24:44,542 p=8547 u=giridhar |  ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-06 12:24:44,547 p=8547 u=giridhar |  TASK [Converting the string in to upper case] ***************************************************************************************************************************
+2019-08-06 12:24:44,547 p=8547 u=giridhar |  Tuesday 06 August 2019  12:24:44 +0530 (0:00:00.036)       0:00:00.084 ******** 
+2019-08-06 12:24:44,561 p=8547 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-06 12:24:44,571 p=8547 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case KAZAMA"
+}
+2019-08-06 12:24:44,576 p=8547 u=giridhar |  TASK [Converting the string in to camel case] ***************************************************************************************************************************
+2019-08-06 12:24:44,576 p=8547 u=giridhar |  Tuesday 06 August 2019  12:24:44 +0530 (0:00:00.029)       0:00:00.113 ******** 
+2019-08-06 12:24:44,590 p=8547 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-06 12:24:44,601 p=8547 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case Kazama"
+}
+2019-08-06 12:24:44,606 p=8547 u=giridhar |  TASK [Converting the number in to string] *******************************************************************************************************************************
+2019-08-06 12:24:44,606 p=8547 u=giridhar |  Tuesday 06 August 2019  12:24:44 +0530 (0:00:00.029)       0:00:00.142 ******** 
+2019-08-06 12:24:44,619 p=8547 u=giridhar |  ok: [rhel71.lab.example.com] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-06 12:24:44,632 p=8547 u=giridhar |  ok: [localhost] => {
+    "msg": "This is a converted case 25"
+}
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  rhel71.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  Tuesday 06 August 2019  12:24:44 +0530 (0:00:00.028)       0:00:00.171 ******** 
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  =============================================================================== 
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  assert ----------------------------------------------------------------------------------------------------------------------------------------------------------- 0.04s
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  Converting the string in to upper case --------------------------------------------------------------------------------------------------------------------------- 0.03s
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  Converting the string in to camel case --------------------------------------------------------------------------------------------------------------------------- 0.03s
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  Converting the number in to string ------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2019-08-06 12:24:44,634 p=8547 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+2019-08-06 13:00:33,530 p=9911 u=giridhar |  PLAY [practising filters lists and dictionaries] ************************************************************************************************************************
+2019-08-06 13:00:33,538 p=9911 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-06 13:00:35,402 p=9911 u=giridhar |  ok: [localhost]
+2019-08-06 13:00:35,437 p=9911 u=giridhar |  TASK [Testing the combine filter] ***************************************************************************************************************************************
+2019-08-06 13:00:35,462 p=9911 u=giridhar |  ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-06 13:00:35,468 p=9911 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-06 13:00:35,468 p=9911 u=giridhar |  localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-06 13:00:35,468 p=9911 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+2019-08-06 13:01:03,385 p=10043 u=giridhar |  PLAY [practising filters lists and dictionaries] ************************************************************************************************************************
+2019-08-06 13:01:03,393 p=10043 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-06 13:01:04,442 p=10043 u=giridhar |  ok: [localhost]
+2019-08-06 13:01:04,466 p=10043 u=giridhar |  TASK [Testing the combine filter] ***************************************************************************************************************************************
+2019-08-06 13:01:04,486 p=10043 u=giridhar |  fatal: [localhost]: FAILED! => {
+    "assertion": "{'a': 1, 'b': 3, 'c': 4} is eq({'a': 1, 'b': 2, 'c': 4})",
+    "changed": false,
+    "evaluated_to": false,
+    "msg": "Assertion failed"
+}
+2019-08-06 13:01:04,487 p=10043 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-06 13:01:04,488 p=10043 u=giridhar |  localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-08-06 13:01:04,488 p=10043 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+2019-08-06 13:01:39,497 p=10153 u=giridhar |  PLAY [practising filters lists and dictionaries] ************************************************************************************************************************
+2019-08-06 13:01:39,504 p=10153 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-06 13:01:41,507 p=10153 u=giridhar |  ok: [localhost]
+2019-08-06 13:01:41,531 p=10153 u=giridhar |  TASK [Testing the combine filter] ***************************************************************************************************************************************
+2019-08-06 13:01:41,552 p=10153 u=giridhar |  ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-06 13:01:41,554 p=10153 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-06 13:01:41,554 p=10153 u=giridhar |  localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-06 13:01:41,554 p=10153 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 2 seconds
+2019-08-06 13:57:23,488 p=12232 u=giridhar |  ansible-playbook 2.8.3
+  config file = /home/giridhar/Documents/workbooks/practice/ansible.cfg
+  configured module search path = ['/home/giridhar/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/local/lib/python3.6/dist-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 3.6.8 (default, Jan 14 2019, 11:02:34) [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+2019-08-06 13:57:23,488 p=12232 u=giridhar |  Using /home/giridhar/Documents/workbooks/practice/ansible.cfg as config file
+2019-08-06 13:57:23,490 p=12232 u=giridhar |  setting up inventory plugins
+2019-08-06 13:57:23,499 p=12232 u=giridhar |  host_list declined parsing /home/giridhar/Documents/workbooks/practice/hosts as it did not pass it's verify_file() method
+2019-08-06 13:57:23,500 p=12232 u=giridhar |  script declined parsing /home/giridhar/Documents/workbooks/practice/hosts as it did not pass it's verify_file() method
+2019-08-06 13:57:23,500 p=12232 u=giridhar |  auto declined parsing /home/giridhar/Documents/workbooks/practice/hosts as it did not pass it's verify_file() method
+2019-08-06 13:57:23,501 p=12232 u=giridhar |  Parsed /home/giridhar/Documents/workbooks/practice/hosts inventory source with yaml plugin
+2019-08-06 13:57:23,817 p=12232 u=giridhar |  Loading callback plugin default of type stdout, v2.0 from /usr/local/lib/python3.6/dist-packages/ansible/plugins/callback/default.py
+2019-08-06 13:57:23,874 p=12232 u=giridhar |  Loading callback plugin timer of type aggregate, v2.0 from /usr/local/lib/python3.6/dist-packages/ansible/plugins/callback/timer.py
+2019-08-06 13:57:23,878 p=12232 u=giridhar |  PLAYBOOK: filters2.yml **************************************************************************************************************************************************
+2019-08-06 13:57:23,879 p=12232 u=giridhar |  1 plays in filters2.yml
+2019-08-06 13:57:23,901 p=12232 u=giridhar |  PLAY [practising filters lists and dictionaries] ************************************************************************************************************************
+2019-08-06 13:57:23,913 p=12232 u=giridhar |  TASK [Gathering Facts] **************************************************************************************************************************************************
+2019-08-06 13:57:23,913 p=12232 u=giridhar |  task path: /home/giridhar/Documents/workbooks/practice/filters2.yml:2
+2019-08-06 13:57:23,923 p=12232 u=giridhar |  <127.0.0.1> ESTABLISH LOCAL CONNECTION FOR USER: giridhar
+2019-08-06 13:57:23,923 p=12232 u=giridhar |  <127.0.0.1> EXEC /bin/sh -c 'echo ~giridhar && sleep 0'
+2019-08-06 13:57:23,928 p=12232 u=giridhar |  <127.0.0.1> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /home/giridhar/.ansible/tmp/ansible-tmp-1565080043.9227703-124897907714442 `" && echo ansible-tmp-1565080043.9227703-124897907714442="` echo /home/giridhar/.ansible/tmp/ansible-tmp-1565080043.9227703-124897907714442 `" ) && sleep 0'
+2019-08-06 13:57:24,214 p=12232 u=giridhar |  Using module file /usr/local/lib/python3.6/dist-packages/ansible/modules/system/setup.py
+2019-08-06 13:57:24,214 p=12232 u=giridhar |  <127.0.0.1> PUT /home/giridhar/.ansible/tmp/ansible-local-12232mwksfqea/tmp1v2ls98n TO /home/giridhar/.ansible/tmp/ansible-tmp-1565080043.9227703-124897907714442/AnsiballZ_setup.py
+2019-08-06 13:57:24,215 p=12232 u=giridhar |  <127.0.0.1> EXEC /bin/sh -c 'chmod u+x /home/giridhar/.ansible/tmp/ansible-tmp-1565080043.9227703-124897907714442/ /home/giridhar/.ansible/tmp/ansible-tmp-1565080043.9227703-124897907714442/AnsiballZ_setup.py && sleep 0'
+2019-08-06 13:57:24,220 p=12232 u=giridhar |  <127.0.0.1> EXEC /bin/sh -c 'sudo -H -S -n  -u root /bin/sh -c '"'"'echo BECOME-SUCCESS-ilqitxtrohalbhqlsbgpvemhgtpevsvb ; /usr/bin/python3 /home/giridhar/.ansible/tmp/ansible-tmp-1565080043.9227703-124897907714442/AnsiballZ_setup.py'"'"' && sleep 0'
+2019-08-06 13:57:26,985 p=12232 u=giridhar |  <127.0.0.1> EXEC /bin/sh -c 'rm -f -r /home/giridhar/.ansible/tmp/ansible-tmp-1565080043.9227703-124897907714442/ > /dev/null 2>&1 && sleep 0'
+2019-08-06 13:57:27,026 p=12232 u=giridhar |  ok: [localhost]
+2019-08-06 13:57:27,030 p=12232 u=giridhar |  META: ran handlers
+2019-08-06 13:57:27,056 p=12232 u=giridhar |  TASK [Testing the combine filter] ***************************************************************************************************************************************
+2019-08-06 13:57:27,057 p=12232 u=giridhar |  task path: /home/giridhar/Documents/workbooks/practice/filters2.yml:5
+2019-08-06 13:57:27,074 p=12232 u=giridhar |  ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+2019-08-06 13:57:27,075 p=12232 u=giridhar |  META: ran handlers
+2019-08-06 13:57:27,075 p=12232 u=giridhar |  META: ran handlers
+2019-08-06 13:57:27,076 p=12232 u=giridhar |  PLAY RECAP **************************************************************************************************************************************************************
+2019-08-06 13:57:27,077 p=12232 u=giridhar |  localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-06 13:57:27,077 p=12232 u=giridhar |  Playbook run took 0 days, 0 hours, 0 minutes, 3 seconds
+2019-08-06 13:58:36,917 p=12356 u=giridhar |  localhost | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "192.168.122.1",
+            "172.19.100.1",
+            "192.168.43.156",
+            "172.17.0.1"
+        ],
+        "ansible_all_ipv6_addresses": [
+            "fe80::fc54:ff:fe36:f641",
+            "2401:4900:1887:3935:c77c:4b53:ba47:bac9",
+            "fe80::b72d:4f87:654d:ecf4",
+            "2401:4900:1887:3935:fc54:2e6c:bfce:3e61"
+        ],
+        "ansible_apparmor": {
+            "status": "enabled"
+        },
+        "ansible_architecture": "x86_64",
+        "ansible_bios_date": "07/21/2017",
+        "ansible_bios_version": "1.4.1",
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/boot/vmlinuz-4.15.0-55-generic",
+            "quiet": true,
+            "ro": true,
+            "root": "UUID=2c299f5d-c73a-4011-af35-cd2514490317",
+            "splash": true,
+            "vt.handoff": "1"
+        },
+        "ansible_date_time": {
+            "date": "2019-08-06",
+            "day": "06",
+            "epoch": "1565080116",
+            "hour": "13",
+            "iso8601": "2019-08-06T08:28:36Z",
+            "iso8601_basic": "20190806T135836474082",
+            "iso8601_basic_short": "20190806T135836",
+            "iso8601_micro": "2019-08-06T08:28:36.474167Z",
+            "minute": "58",
+            "month": "08",
+            "second": "36",
+            "time": "13:58:36",
+            "tz": "IST",
+            "tz_offset": "+0530",
+            "weekday": "Tuesday",
+            "weekday_number": "2",
+            "weeknumber": "31",
+            "year": "2019"
+        },
+        "ansible_default_ipv4": {
+            "address": "192.168.43.156",
+            "alias": "wlp3s0",
+            "broadcast": "192.168.43.255",
+            "gateway": "192.168.43.1",
+            "interface": "wlp3s0",
+            "macaddress": "d4:6a:6a:83:bc:cb",
+            "mtu": 1500,
+            "netmask": "255.255.255.0",
+            "network": "192.168.43.0",
+            "type": "ether"
+        },
+        "ansible_default_ipv6": {
+            "address": "2401:4900:1887:3935:fc54:2e6c:bfce:3e61",
+            "gateway": "fe80::b6c4:fcff:fe9d:c230",
+            "interface": "wlp3s0",
+            "macaddress": "d4:6a:6a:83:bc:cb",
+            "mtu": 1500,
+            "prefix": "64",
+            "scope": "global",
+            "type": "ether"
+        },
+        "ansible_device_links": {
+            "ids": {
+                "sda": [
+                    "ata-SanDisk_SDSSDA240G_173706800203",
+                    "wwn-0x5001b448b4f2858d"
+                ],
+                "sda1": [
+                    "ata-SanDisk_SDSSDA240G_173706800203-part1",
+                    "wwn-0x5001b448b4f2858d-part1"
+                ],
+                "sda2": [
+                    "ata-SanDisk_SDSSDA240G_173706800203-part2",
+                    "wwn-0x5001b448b4f2858d-part2"
+                ]
+            },
+            "labels": {},
+            "masters": {},
+            "uuids": {
+                "sda1": [
+                    "1F6E-C953"
+                ],
+                "sda2": [
+                    "2c299f5d-c73a-4011-af35-cd2514490317"
+                ]
+            }
+        },
+        "ansible_devices": {
+            "loop0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop1": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop2": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop3": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop4": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop5": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop6": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop7": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "sda": {
+                "holders": [],
+                "host": "SATA controller: Intel Corporation Sunrise Point-LP SATA Controller [AHCI mode] (rev 21)",
+                "links": {
+                    "ids": [
+                        "ata-SanDisk_SDSSDA240G_173706800203",
+                        "wwn-0x5001b448b4f2858d"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "SanDisk SDSSDA24",
+                "partitions": {
+                    "sda1": {
+                        "holders": [],
+                        "links": {
+                            "ids": [
+                                "ata-SanDisk_SDSSDA240G_173706800203-part1",
+                                "wwn-0x5001b448b4f2858d-part1"
+                            ],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "1F6E-C953"
+                            ]
+                        },
+                        "sectors": "1048576",
+                        "sectorsize": 512,
+                        "size": "512.00 MB",
+                        "start": "2048",
+                        "uuid": "1F6E-C953"
+                    },
+                    "sda2": {
+                        "holders": [],
+                        "links": {
+                            "ids": [
+                                "ata-SanDisk_SDSSDA240G_173706800203-part2",
+                                "wwn-0x5001b448b4f2858d-part2"
+                            ],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "2c299f5d-c73a-4011-af35-cd2514490317"
+                            ]
+                        },
+                        "sectors": "467810304",
+                        "sectorsize": 512,
+                        "size": "223.07 GB",
+                        "start": "1050624",
+                        "uuid": "2c299f5d-c73a-4011-af35-cd2514490317"
+                    }
+                },
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "cfq",
+                "sectors": "468862128",
+                "sectorsize": "512",
+                "size": "223.57 GB",
+                "support_discard": "512",
+                "vendor": "ATA",
+                "virtual": 1,
+                "wwn": "0x5001b448b4f2858d"
+            }
+        },
+        "ansible_distribution": "Linux Mint",
+        "ansible_distribution_file_parsed": true,
+        "ansible_distribution_file_path": "/etc/os-release",
+        "ansible_distribution_file_variety": "Debian",
+        "ansible_distribution_major_version": "19",
+        "ansible_distribution_release": "tessa",
+        "ansible_distribution_version": "19.1",
+        "ansible_dns": {
+            "nameservers": [
+                "127.0.0.53"
+            ],
+            "options": {
+                "edns0": true
+            }
+        },
+        "ansible_docker0": {
+            "active": false,
+            "device": "docker0",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "netns_local": "on [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "off [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "on",
+                "tx_fcoe_segmentation": "on",
+                "tx_gre_csum_segmentation": "on",
+                "tx_gre_segmentation": "on",
+                "tx_gso_partial": "on",
+                "tx_gso_robust": "on",
+                "tx_ipxip4_segmentation": "on",
+                "tx_ipxip6_segmentation": "on",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "on",
+                "tx_sctp_segmentation": "on",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_udp_tnl_csum_segmentation": "on",
+                "tx_udp_tnl_segmentation": "on",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "on",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "id": "8000.024221525b11",
+            "interfaces": [],
+            "ipv4": {
+                "address": "172.17.0.1",
+                "broadcast": "172.17.255.255",
+                "netmask": "255.255.0.0",
+                "network": "172.17.0.0"
+            },
+            "macaddress": "02:42:21:52:5b:11",
+            "mtu": 1500,
+            "promisc": false,
+            "stp": false,
+            "timestamping": [
+                "rx_software",
+                "software"
+            ],
+            "type": "bridge"
+        },
+        "ansible_domain": "",
+        "ansible_effective_group_id": 0,
+        "ansible_effective_user_id": 0,
+        "ansible_enp2s0": {
+            "active": false,
+            "device": "enp2s0",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "off [requested on]",
+                "highdma": "on [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "netns_local": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off",
+                "rx_checksumming": "on",
+                "rx_fcs": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "on",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "off",
+                "tcp_segmentation_offload": "off",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "off [fixed]",
+                "tx_checksum_ipv4": "off",
+                "tx_checksum_ipv6": "off",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "off",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "off",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off",
+                "tx_tcp_segmentation": "off",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "macaddress": "10:7d:1a:49:a4:34",
+            "module": "r8169",
+            "mtu": 1500,
+            "pciid": "0000:02:00.0",
+            "promisc": false,
+            "speed": 10,
+            "timestamping": [
+                "tx_software",
+                "rx_software",
+                "software"
+            ],
+            "type": "ether"
+        },
+        "ansible_env": {
+            "COLORTERM": "truecolor",
+            "DISPLAY": ":0",
+            "HOME": "/root",
+            "LANG": "en_IN",
+            "LANGUAGE": "en_IN:en",
+            "LOGNAME": "root",
+            "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+            "MAIL": "/var/mail/root",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin",
+            "PWD": "/home/giridhar/Documents/workbooks/practice",
+            "SHELL": "/bin/bash",
+            "SUDO_COMMAND": "/bin/sh -c echo BECOME-SUCCESS-lynolvvsijbafufqlfygtiafsfbxnkqg ; /usr/bin/python3 /home/giridhar/.ansible/tmp/ansible-tmp-1565080115.8951864-174166995116648/AnsiballZ_setup.py",
+            "SUDO_GID": "1000",
+            "SUDO_UID": "1000",
+            "SUDO_USER": "giridhar",
+            "TERM": "xterm-256color",
+            "USER": "root",
+            "USERNAME": "root",
+            "XAUTHORITY": "/home/giridhar/.Xauthority"
+        },
+        "ansible_fibre_channel_wwn": [],
+        "ansible_fips": false,
+        "ansible_form_factor": "Notebook",
+        "ansible_fqdn": "devsecops",
+        "ansible_hostname": "devsecops",
+        "ansible_hostnqn": "",
+        "ansible_interfaces": [
+            "ppp0",
+            "docker0",
+            "enp2s0",
+            "virbr0-nic",
+            "vnet0",
+            "lo",
+            "wlp3s0",
+            "virbr0"
+        ],
+        "ansible_is_chroot": false,
+        "ansible_iscsi_iqn": "",
+        "ansible_kernel": "4.15.0-55-generic",
+        "ansible_lo": {
+            "active": true,
+            "device": "lo",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "on [fixed]",
+                "netns_local": "on [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "on [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off [fixed]",
+                "tx_scatter_gather": "on [fixed]",
+                "tx_scatter_gather_fraglist": "on [fixed]",
+                "tx_sctp_segmentation": "on",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "on [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "127.0.0.1",
+                "broadcast": "host",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0"
+            },
+            "ipv6": [
+                {
+                    "address": "::1",
+                    "prefix": "128",
+                    "scope": "host"
+                }
+            ],
+            "mtu": 65536,
+            "promisc": false,
+            "timestamping": [
+                "tx_software",
+                "rx_software",
+                "software"
+            ],
+            "type": "loopback"
+        },
+        "ansible_local": {},
+        "ansible_lsb": {
+            "codename": "tessa",
+            "description": "Linux Mint 19.1 Tessa",
+            "id": "LinuxMint",
+            "major_release": "19",
+            "release": "19.1"
+        },
+        "ansible_lvm": {
+            "lvs": {},
+            "pvs": {},
+            "vgs": {}
+        },
+        "ansible_machine": "x86_64",
+        "ansible_machine_id": "82929df7ee394b73b81252fe3b4e5020",
+        "ansible_memfree_mb": 247,
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 2362,
+                "used": 5481
+            },
+            "real": {
+                "free": 247,
+                "total": 7843,
+                "used": 7596
+            },
+            "swap": {
+                "cached": 18,
+                "free": 412,
+                "total": 2047,
+                "used": 1635
+            }
+        },
+        "ansible_memtotal_mb": 7843,
+        "ansible_mounts": [
+            {
+                "block_available": 29062771,
+                "block_size": 4096,
+                "block_total": 57296219,
+                "block_used": 28233448,
+                "device": "/dev/sda2",
+                "fstype": "ext4",
+                "inode_available": 13256517,
+                "inode_total": 14622720,
+                "inode_used": 1366203,
+                "mount": "/",
+                "options": "rw,relatime,errors=remount-ro,data=ordered",
+                "size_available": 119041110016,
+                "size_total": 234685313024,
+                "uuid": "2c299f5d-c73a-4011-af35-cd2514490317"
+            },
+            {
+                "block_available": 129254,
+                "block_size": 4096,
+                "block_total": 130812,
+                "block_used": 1558,
+                "device": "/dev/sda1",
+                "fstype": "vfat",
+                "inode_available": 0,
+                "inode_total": 0,
+                "inode_used": 0,
+                "mount": "/boot/efi",
+                "options": "rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro",
+                "size_available": 529424384,
+                "size_total": 535805952,
+                "uuid": "1F6E-C953"
+            },
+            {
+                "block_available": 0,
+                "block_size": 512,
+                "block_total": 0,
+                "block_used": 0,
+                "device": "/dev/fuse",
+                "fstype": "fuse",
+                "inode_available": 0,
+                "inode_total": 0,
+                "inode_used": 0,
+                "mount": "/home/giridhar/.cache/doc",
+                "options": "rw,nosuid,nodev,relatime,user_id=0,group_id=0",
+                "size_available": 0,
+                "size_total": 0,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 0,
+                "block_total": 0,
+                "block_used": 0,
+                "device": "/dev/fuse",
+                "fstype": "fuse",
+                "inode_available": 0,
+                "inode_total": 0,
+                "inode_used": 0,
+                "mount": "/run/user/1000/doc",
+                "options": "rw,nosuid,nodev,relatime,user_id=1000,group_id=1000",
+                "size_available": 0,
+                "size_total": 0,
+                "uuid": "N/A"
+            }
+        ],
+        "ansible_nodename": "devsecops",
+        "ansible_os_family": "Debian",
+        "ansible_pkg_mgr": "apt",
+        "ansible_ppp0": {
+            "active": true,
+            "device": "ppp0",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "off [requested on]",
+                "highdma": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "netns_local": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "off [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "off",
+                "tcp_segmentation_offload": "off",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "off [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "off",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "off [fixed]",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off [fixed]",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off [fixed]",
+                "tx_tcp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "172.19.100.1",
+                "broadcast": "",
+                "netmask": "255.255.255.255",
+                "network": "172.19.100.1"
+            },
+            "mtu": 1354,
+            "promisc": false,
+            "timestamping": [
+                "rx_software",
+                "software"
+            ],
+            "type": "ppp"
+        },
+        "ansible_proc_cmdline": {
+            "BOOT_IMAGE": "/boot/vmlinuz-4.15.0-55-generic",
+            "quiet": true,
+            "ro": true,
+            "root": "UUID=2c299f5d-c73a-4011-af35-cd2514490317",
+            "splash": true,
+            "vt.handoff": "1"
+        },
+        "ansible_processor": [
+            "0",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz",
+            "1",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz",
+            "2",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz",
+            "3",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz"
+        ],
+        "ansible_processor_cores": 2,
+        "ansible_processor_count": 1,
+        "ansible_processor_threads_per_core": 2,
+        "ansible_processor_vcpus": 4,
+        "ansible_product_name": "Latitude 3480",
+        "ansible_product_serial": "5ZTWRJ2",
+        "ansible_product_uuid": "4C4C4544-005A-5410-8057-B5C04F524A32",
+        "ansible_product_version": "NA",
+        "ansible_python": {
+            "executable": "/usr/bin/python3",
+            "has_sslcontext": true,
+            "type": "cpython",
+            "version": {
+                "major": 3,
+                "micro": 8,
+                "minor": 6,
+                "releaselevel": "final",
+                "serial": 0
+            },
+            "version_info": [
+                3,
+                6,
+                8,
+                "final",
+                0
+            ]
+        },
+        "ansible_python_version": "3.6.8",
+        "ansible_real_group_id": 0,
+        "ansible_real_user_id": 0,
+        "ansible_selinux": {
+            "status": "disabled"
+        },
+        "ansible_selinux_python_present": true,
+        "ansible_service_mgr": "systemd",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGfmJ/O93tUQpZL2xW7tKcZ/yVhzrGLvKOAVe768tuNijTQm7TbOSoQJOWJICgTSeJd/DegrhRjrmT9W4+GtxDI=",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIOdNb+9wd+YEKh0vBQgD8UHxPOZk0MuajyVTSR0Kyt00",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQCaRRZP2XRjFW5Mp44vmOng8HuNBOHa0fupwT3hzJXuuBJGiCZhRVeok2KOhZ2Po7x4v6s9Ne+dnbnTLhA1xFWE60tqrFoH4m3dNda5D2LLvqaPJwrRgmVOBqa83C0aooGnYL5MvqCTQ8SpvPwWTH7+9nK8I4hJLj+C8bAu1EYhA6JnlEnnznhgjryFQh2261e0RbzocCYumW4fVCXKe9Ab4q6ZUfY+0OilXJBgPQC/dQgz3wlF6VeeJLEjArtyXuwyXTYyyV9bM15HVL16L4CidMxCBawu7Ly+VwmJHIpxPkmq6oNThIp6/0kJ0TQ8GeC5Q249IEucnCNsedxG6s4J",
+        "ansible_swapfree_mb": 412,
+        "ansible_swaptotal_mb": 2047,
+        "ansible_system": "Linux",
+        "ansible_system_capabilities": [
+            "cap_chown",
+            "cap_dac_override",
+            "cap_dac_read_search",
+            "cap_fowner",
+            "cap_fsetid",
+            "cap_kill",
+            "cap_setgid",
+            "cap_setuid",
+            "cap_setpcap",
+            "cap_linux_immutable",
+            "cap_net_bind_service",
+            "cap_net_broadcast",
+            "cap_net_admin",
+            "cap_net_raw",
+            "cap_ipc_lock",
+            "cap_ipc_owner",
+            "cap_sys_module",
+            "cap_sys_rawio",
+            "cap_sys_chroot",
+            "cap_sys_ptrace",
+            "cap_sys_pacct",
+            "cap_sys_admin",
+            "cap_sys_boot",
+            "cap_sys_nice",
+            "cap_sys_resource",
+            "cap_sys_time",
+            "cap_sys_tty_config",
+            "cap_mknod",
+            "cap_lease",
+            "cap_audit_write",
+            "cap_audit_control",
+            "cap_setfcap",
+            "cap_mac_override",
+            "cap_mac_admin",
+            "cap_syslog",
+            "cap_wake_alarm",
+            "cap_block_suspend",
+            "cap_audit_read+ep"
+        ],
+        "ansible_system_capabilities_enforced": "True",
+        "ansible_system_vendor": "Dell Inc.",
+        "ansible_uptime_seconds": 836586,
+        "ansible_user_dir": "/root",
+        "ansible_user_gecos": "root",
+        "ansible_user_gid": 0,
+        "ansible_user_id": "root",
+        "ansible_user_shell": "/bin/bash",
+        "ansible_user_uid": 0,
+        "ansible_userspace_architecture": "x86_64",
+        "ansible_userspace_bits": "64",
+        "ansible_virbr0": {
+            "active": true,
+            "device": "virbr0",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "off [requested on]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "netns_local": "on [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "off [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "on",
+                "tx_fcoe_segmentation": "off [requested on]",
+                "tx_gre_csum_segmentation": "on",
+                "tx_gre_segmentation": "on",
+                "tx_gso_partial": "on",
+                "tx_gso_robust": "off [requested on]",
+                "tx_ipxip4_segmentation": "on",
+                "tx_ipxip6_segmentation": "on",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "on",
+                "tx_sctp_segmentation": "off [requested on]",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_udp_tnl_csum_segmentation": "on",
+                "tx_udp_tnl_segmentation": "on",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "on",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "id": "8000.525400957b31",
+            "interfaces": [
+                "virbr0-nic",
+                "vnet0"
+            ],
+            "ipv4": {
+                "address": "192.168.122.1",
+                "broadcast": "192.168.122.255",
+                "netmask": "255.255.255.0",
+                "network": "192.168.122.0"
+            },
+            "macaddress": "52:54:00:95:7b:31",
+            "mtu": 1500,
+            "promisc": false,
+            "stp": true,
+            "timestamping": [
+                "rx_software",
+                "software"
+            ],
+            "type": "bridge"
+        },
+        "ansible_virbr0_nic": {
+            "active": false,
+            "device": "virbr0-nic",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "netns_local": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "off [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "off",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "off [requested on]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "off",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "on",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off [requested on]",
+                "tx_tcp_ecn_segmentation": "off [requested on]",
+                "tx_tcp_mangleid_segmentation": "off",
+                "tx_tcp_segmentation": "off [requested on]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "on",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "macaddress": "52:54:00:95:7b:31",
+            "mtu": 1500,
+            "promisc": true,
+            "timestamping": [
+                "tx_software",
+                "rx_software",
+                "software"
+            ],
+            "type": "ether"
+        },
+        "ansible_virtualization_role": "host",
+        "ansible_virtualization_type": "kvm",
+        "ansible_vnet0": {
+            "active": true,
+            "device": "vnet0",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "netns_local": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "off [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "off",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "off",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "off",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "on",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off",
+                "tx_tcp_ecn_segmentation": "off",
+                "tx_tcp_mangleid_segmentation": "off",
+                "tx_tcp_segmentation": "off",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "on",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv6": [
+                {
+                    "address": "fe80::fc54:ff:fe36:f641",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "fe:54:00:36:f6:41",
+            "mtu": 1500,
+            "promisc": true,
+            "speed": 10,
+            "timestamping": [
+                "tx_software",
+                "rx_software",
+                "software"
+            ],
+            "type": "ether"
+        },
+        "ansible_wlp3s0": {
+            "active": true,
+            "device": "wlp3s0",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "off [requested on]",
+                "highdma": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "netns_local": "on [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "off [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "off",
+                "tcp_segmentation_offload": "off",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "off [fixed]",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off [fixed]",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off [fixed]",
+                "tx_tcp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "udp_fragmentation_offload": "off",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "192.168.43.156",
+                "broadcast": "192.168.43.255",
+                "netmask": "255.255.255.0",
+                "network": "192.168.43.0"
+            },
+            "ipv6": [
+                {
+                    "address": "2401:4900:1887:3935:c77c:4b53:ba47:bac9",
+                    "prefix": "64",
+                    "scope": "global"
+                },
+                {
+                    "address": "fe80::b72d:4f87:654d:ecf4",
+                    "prefix": "64",
+                    "scope": "link"
+                },
+                {
+                    "address": "2401:4900:1887:3935:fc54:2e6c:bfce:3e61",
+                    "prefix": "64",
+                    "scope": "global"
+                }
+            ],
+            "macaddress": "d4:6a:6a:83:bc:cb",
+            "module": "ath10k_pci",
+            "mtu": 1500,
+            "pciid": "0000:03:00.0",
+            "promisc": false,
+            "timestamping": [
+                "rx_software",
+                "software"
+            ],
+            "type": "ether"
+        },
+        "gather_subset": [
+            "all"
+        ],
+        "module_setup": true
+    },
+    "changed": false
+}

@@ -1,0 +1,24 @@
+---
+- name: This is a playbook to test the jinja2 filters to process the data
+  hosts: linux:localhost
+  gather_facts: False
+  vars:
+    my_string: kazama
+    my_number: 25
+    my_array: [2, 4, 5, 3, 2, 6, 7, 3, 2]
+  tasks:
+    - assert:
+        that: "{{ my_array | unique | sort }} is eq ( [2, 3, 4, 5, 6, 7] )"
+
+    - name: Converting the string in to upper case
+      debug:
+        msg: "This is a converted case {{ my_string | upper }}"
+
+
+    - name: Converting the string in to camel case
+      debug:
+        msg: "This is a converted case {{ my_string | capitalize }}"
+
+    - name: Converting the number in to string
+      debug:
+        msg: "This is a converted case {{ my_number | string }}"

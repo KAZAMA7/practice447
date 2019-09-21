@@ -1,0 +1,7 @@
+---
+- name: Time to check the facts after getting disabled
+  hosts: all
+  gather_facts: False
+  tasks:
+    - debug:
+        msg: "The facts are set to disabled"

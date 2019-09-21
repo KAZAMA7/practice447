@@ -1,7 +1,0 @@
----
-- name: Time to check the facts after getting enabled
-  hosts: all
-  gather_facts: True
-  tasks:
-    - debug:
-        msg: "The facts are set to enabled"
